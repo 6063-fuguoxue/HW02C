@@ -15,12 +15,13 @@ function draw() {
 
     translate(width/2, height/2);
     fill(255);
-    stroke(237, 118, 97);
+    // stroke(237, 118, 97);
+    stroke(54,94,181);
     fill(237, 118, 97);
     strokeWeight(3);
     quad(0, 10, 90, 0, 88, 80, 3, 80);
     rotate(PI/2);
-    stroke(54,94,181);
+    // stroke(54,94,181);
     fill(255);
     quad(0, 10, 90, 0, 88, 80, 3, 80);
     rotate(PI/2);
@@ -29,7 +30,9 @@ function draw() {
     quad(0, 10, 90, 0, 88, 80, 3, 80);
     rotate(PI/2);
     quad(95,-80,165,-90,165,90,95,100);
-    rect(170, -90, 10, 170);
+    rotate(-PI/48);
+    rect(175, -80, 20, 180);
+    rotate(PI/48);
     quad(-130,-90,-200,-80,-200,100,-130,90);
     rotate(PI/96);
     rect(-125, -90, 30, 170);
